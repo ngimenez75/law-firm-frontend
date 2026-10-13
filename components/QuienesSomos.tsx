@@ -97,7 +97,7 @@ export function QuienesSomos() {
               </div>
               <div className="shrink-0 flex items-center gap-2 text-xs text-stone-400">
                 <Building2 className="w-4 h-4" />
-                <span>Matrículas CPACF / CASI</span>
+                <span>Matrículas Colegio de Abogados de Córdoba</span>
               </div>
             </div>
           </div>

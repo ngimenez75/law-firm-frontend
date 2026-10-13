@@ -100,8 +100,8 @@ export function Footer() {
               Práctica jurídica integral orientada a la resolución ágil y efectiva de controversias. Combinamos rigor dogmático tradicional con herramientas de gestión digital transparente.
             </p>
             <div className="pt-2 text-xs text-slate-500 space-y-1">
-              <p>Colegio Público de la Abogacía de la Capital Federal (CPACF)</p>
-              <p>Cámara Nacional de Apelaciones en lo Civil y Comercial Federal</p>
+              <p>Colegio de Abogados de Córdoba (CAC)</p>
+              <p>Tribunales Ordinarios de la Provincia de Córdoba</p>
             </div>
           </div>
 
@@ -114,17 +114,17 @@ export function Footer() {
               <li className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-slate-700 shrink-0 mt-1" />
                 <span>
-                  Av. Corrientes 1250, Piso 8<br />
-                  Zona Tribunales, C1043 AAB, CABA
+                  Ayacucho 367, Piso 11 A<br />
+                  Centro, X5000 Córdoba Capital
                 </span>
               </li>
               <li className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-slate-700 shrink-0" />
                 <a
-                  href="tel:+541155550000"
+                  href="tel:+5493515550000"
                   className="hover:text-slate-900 transition-colors"
                 >
-                  +54 11 5555 0000
+                  +54 9 351 555 0000
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
@@ -148,7 +148,7 @@ export function Footer() {
             <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-900 flex items-center justify-between">
               <span>Ubicación</span>
               <a
-                href="https://www.openstreetmap.org/?mlat=-34.6037&mlon=-58.3816#map=16/-34.6037/-58.3816"
+                href="https://www.openstreetmap.org/?mlat=-31.4185956&mlon=-64.191057949#map=16/-31.4185956/-64.191057949"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xs font-normal text-slate-600 hover:text-slate-900 flex items-center gap-1"
@@ -159,19 +159,19 @@ export function Footer() {
             </h3>
             <div className="rounded-lg overflow-hidden border border-stone-200 bg-stone-100 h-36 relative">
               <iframe
-                title="Mapa de ubicación en Tribunales CABA"
+                title="Mapa de ubicación en Córdoba Capital"
                 width="100%"
                 height="100%"
                 frameBorder="0"
                 scrolling="no"
                 marginHeight={0}
                 marginWidth={0}
-                src="https://www.openstreetmap.org/export/embed.html?bbox=-58.3876%2C-34.6067%2C-58.3756%2C-34.6007&amp;layer=mapnik&amp;marker=-34.6037%2C-58.3816"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-64.1965%2C-31.4225%2C-64.1855%2C-31.4145&amp;layer=mapnik&amp;marker=-31.4185956%2C-64.191057949"
                 className="w-full h-full filter saturate-50 contrast-90"
               />
             </div>
             <p className="text-[11px] text-slate-500">
-              A 200m del Palacio de Justicia y Estación Tribunales (Línea D).
+              A metros de La Cañada y a minutos del Palacio de Justicia I (Tribunales de Córdoba).
             </p>
           </div>
 
@@ -227,8 +227,8 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-6 border-t border-stone-200 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <p>
-            © {new Date().getFullYear()} Estudio Legal. Todos los derechos reservados.
-            Buenos Aires, Argentina.
+            © {new Date().getFullYear()} Giordano, Lopez & García Lepez. Todos los derechos reservados.
+            Córdoba, Argentina.
           </p>
 
           <div className="flex items-center gap-6">

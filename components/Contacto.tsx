@@ -60,10 +60,10 @@ export function Contacto() {
                     Línea Telefónica Directa
                   </h3>
                   <a
-                    href="tel:+541155550000"
+                    href="tel:+5493515550000"
                     className="text-sm font-semibold text-slate-800 hover:text-slate-950 transition-colors"
                   >
-                    +54 11 5555 0000
+                    +54 9 351 555 0000
                   </a>
                   <p className="text-xs text-slate-500">Lunes a Viernes de 9 a 18 hs</p>
                 </div>
@@ -96,7 +96,7 @@ export function Contacto() {
                     Oficinas Centrales
                   </h3>
                   <p className="text-sm text-slate-800">
-                    Av. Corrientes 1250, Piso 8, CABA
+                    Ayacucho 367, Piso 11 A, Córdoba Capital
                   </p>
                   <p className="text-xs text-slate-500">Reuniones presenciales con cita previa</p>
                 </div>
@@ -111,7 +111,7 @@ export function Contacto() {
                     Guardia de Urgencias Penales
                   </h3>
                   <p className="text-sm text-slate-800">Atención 24/7 vía WhatsApp</p>
-                  <p className="text-xs text-slate-500">Detenciones e indagatorias en CABA y PBA</p>
+                  <p className="text-xs text-slate-500">Detenciones e indagatorias en Córdoba Capital y Gran Córdoba</p>
                 </div>
               </div>
             </div>
@@ -234,7 +234,7 @@ export function Contacto() {
                         onChange={(e) =>
                           setFormData({ ...formData, telefono: e.target.value })
                         }
-                        placeholder="+54 11 ..."
+                        placeholder="+54 351 ..."
                         className="w-full px-3.5 py-2.5 text-sm rounded-lg bg-stone-50 border border-stone-300 text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-800 focus:border-transparent transition-all"
                       />
                     </div>
@@ -284,7 +284,7 @@ export function Contacto() {
                   </div>
 
                   <p className="text-[11px] text-slate-500">
-                    Tus datos están protegidos bajo secreto profesional y confidencialidad letrada conforme Ley 23.187.
+                    Tus datos están protegidos bajo secreto profesional y confidencialidad letrada conforme Ley 5805 de la Provincia de Córdoba.
                   </p>
 
                   <button

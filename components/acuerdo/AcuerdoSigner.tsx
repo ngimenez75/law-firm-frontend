@@ -134,7 +134,7 @@ export function AcuerdoSignerContent() {
                 AUTORIZACIÓN DE GESTIÓN Y REPRESENTACIÓN LEGAL
               </h2>
               <p className="font-sans text-xs text-slate-600">
-                Ciudad Autónoma de Buenos Aires, {todayFormatted}
+                Ciudad de Córdoba, {todayFormatted}
               </p>
             </div>
 
@@ -352,7 +352,7 @@ export function AcuerdoSignerContent() {
 
       {/* Footer */}
       <footer className="max-w-6xl mx-auto w-full text-center pt-8 text-xs text-slate-500">
-        <p>© {new Date().getFullYear()} Estudio Legal · Buenos Aires, Argentina.</p>
+        <p>© {new Date().getFullYear()} Estudio Legal · Córdoba, Argentina.</p>
       </footer>
     </div>
   );

@@ -21,11 +21,11 @@ export const metadata: Metadata = {
     "Estudio jurídico argentino de vanguardia. Asesoramiento legal en daños, laboral, familia y penal con seguimiento de casos 100% digital.",
   keywords: [
     "estudio legal argentina",
-    "abogados buenos aires",
-    "reclamos siniestros",
-    "derecho laboral",
+    "abogados cordoba",
+    "reclamos siniestros cordoba",
+    "derecho laboral cordoba",
     "derecho de familia",
-    "abogados tribunales",
+    "abogados tribunales cordoba",
   ],
   openGraph: {
     title: "Estudio Legal | Asesoramiento Jurídico y Gestión Digital",

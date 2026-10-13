@@ -388,7 +388,7 @@ export function ReclamoWizard() {
                   type="text"
                   value={formData.ubicacion}
                   onChange={(e) => setFormData({ ...formData, ubicacion: e.target.value })}
-                  placeholder="Ej: Av. del Libertador y Av. Callao, Recoleta, CABA"
+                  placeholder="Ej: Av. Colón y General Paz, Córdoba Capital"
                   className="w-full px-3.5 py-2.5 text-sm rounded-lg bg-stone-50 border border-stone-300 text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-900"
                 />
                 {errors.ubicacion && (

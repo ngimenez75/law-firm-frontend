@@ -6,7 +6,7 @@ export function Hero() {
   return (
     <section className="relative pt-32 pb-20 sm:pt-36 sm:pb-32 overflow-hidden bg-[var(--background)] min-h-[620px] flex items-center">
       {/* Fotografía del estudio a la derecha con fundido suave hacia la izquierda (tal como la maqueta) */}
-      <div className="absolute inset-y-0 right-0 w-full lg:w-[60%] pointer-events-none select-none overflow-hidden">
+      <div className="absolute inset-y-0 right-0 w-full lg:w-[60%] pointer-events-none select-none overflow-hidden animate-photo-feeder">
         <Image
           src="/images/estudio-oficina.jpg"
           alt="Despacho de Giordano, Lopez & García Lepez"
@@ -21,7 +21,7 @@ export function Hero() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10">
-        <div className="w-full lg:w-1/2 space-y-6">
+        <div className="w-full lg:w-1/2 space-y-6 animate-hero-feeder">
           {/* Logo Principal (Versión 2: Vertical / Centrada de la maqueta) */}
           <div className="pt-2">
             <Image

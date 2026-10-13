@@ -65,7 +65,7 @@ export function AreasPractica() {
             Áreas de Práctica
           </h2>
           <p className="text-base text-slate-600">
-            Enfoque técnico especializado en las ramas más críticas del derecho privado y público en los fueros de CABA y Provincia de Buenos Aires.
+            Enfoque técnico especializado en las ramas más críticas del derecho privado y público en los fueros de Córdoba Capital y Provincia de Córdoba.
           </p>
         </div>
 
