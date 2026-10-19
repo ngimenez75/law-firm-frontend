@@ -16,29 +16,30 @@ const cormorantGaramond = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Estudio Legal | Tu respaldo jurídico, ágil y transparente",
+  title: "Giordano · Lopez · García Lepez | Estudio Jurídico",
   description:
-    "Estudio jurídico argentino de vanguardia. Asesoramiento legal en daños, laboral, familia y penal con seguimiento de casos 100% digital.",
+    "Estudio jurídico argentino de vanguardia en Córdoba Capital. Asesoramiento legal en daños, laboral, familia y penal con seguimiento de casos 100% digital.",
   keywords: [
     "estudio legal argentina",
     "abogados cordoba",
+    "giordano lopez garcia lepez",
     "reclamos siniestros cordoba",
     "derecho laboral cordoba",
     "derecho de familia",
     "abogados tribunales cordoba",
   ],
   openGraph: {
-    title: "Estudio Legal | Asesoramiento Jurídico y Gestión Digital",
+    title: "Giordano · Lopez · García Lepez | Estudio Jurídico",
     description:
-      "Atención digital con seguimiento de casos en tiempo real. Consultá tu caso de forma transparente.",
+      "Atención digital con seguimiento de casos en tiempo real en Córdoba Capital. Consultá tu caso de forma transparente.",
     url: "https://estudiolegal.ar",
-    siteName: "Estudio Legal",
+    siteName: "Giordano · Lopez · García Lepez",
     locale: "es_AR",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Estudio Legal | Asesoramiento Jurídico y Gestión Digital",
+    title: "Giordano · Lopez · García Lepez | Estudio Jurídico",
     description: "Atención digital con seguimiento de casos en tiempo real.",
   },
 };

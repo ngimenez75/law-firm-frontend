@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 import { AcuerdoSignerContent } from "@/components/acuerdo/AcuerdoSigner";
 
 export const metadata: Metadata = {
-  title: "Firma Digital de Acuerdo | Estudio Legal",
+  title: "Firma Digital de Acuerdo | Giordano · Lopez · García Lepez",
   description:
     "Paso final de consentimiento para dar inicio formal a la gestión legal y reclamo prejudicial.",
   openGraph: {
-    title: "Firma Digital de Acuerdo | Estudio Legal",
+    title: "Firma Digital de Acuerdo | Giordano · Lopez · García Lepez",
     description: "Firma electrónica protegida bajo Ley 25.506.",
     url: "https://estudiolegal.ar/acuerdo",
     type: "website",

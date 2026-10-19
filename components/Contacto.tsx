@@ -39,10 +39,10 @@ export function Contacto() {
           {/* Columna Izquierda: Datos de Contacto Directo */}
           <div className="lg:col-span-5 space-y-8">
             <div className="space-y-3">
-              <span className="text-xs font-semibold uppercase tracking-[0.25em] text-gold">
+              <span className="font-sans text-xs font-semibold uppercase tracking-[0.25em] text-gold">
                 Atención Inmediata
               </span>
-              <h2 className="font-serif text-3xl sm:text-4xl font-bold text-slate-900">
+              <h2 className="font-serif text-3xl sm:text-4xl font-bold text-navy">
                 Contactanos
               </h2>
               <p className="text-base text-slate-600 leading-relaxed">
@@ -147,7 +147,7 @@ export function Contacto() {
           <div className="lg:col-span-7">
             <div className="bg-white rounded-2xl border border-stone-200 p-8 sm:p-10 shadow-sm">
               <div className="mb-6">
-                <h3 className="font-serif text-2xl font-bold text-slate-900">
+                <h3 className="font-serif text-2xl font-bold text-navy">
                   Envianos tu consulta
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-600 mt-1">

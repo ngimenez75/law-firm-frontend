@@ -25,10 +25,10 @@ export function QuienesSomos() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           {/* Columna Izquierda: Introducción */}
           <div className="lg:col-span-5 space-y-6">
-            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-gold">
+            <span className="font-sans text-xs font-semibold uppercase tracking-[0.25em] text-gold">
               Quiénes Somos
             </span>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-slate-900 leading-tight">
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-navy leading-tight">
               Una práctica jurídica moderna, sin burocracia ni tecnicismos oscuros.
             </h2>
             <p className="text-base text-slate-600 leading-relaxed">
@@ -61,7 +61,7 @@ export function QuienesSomos() {
                     <span className="text-[11px] font-semibold uppercase tracking-wider text-slate-500">
                       Dirección Legal
                     </span>
-                    <h3 className="font-serif text-xl font-bold text-slate-900">
+                    <h3 className="font-serif text-xl font-bold text-navy">
                       {socio.name}
                     </h3>
                     <p className="text-xs font-medium text-slate-700">

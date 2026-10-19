@@ -40,7 +40,7 @@ export function Footer() {
             <Search className="w-3.5 h-3.5 text-slate-600" />
             Portal de Clientes
           </span>
-          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-slate-900 mb-2">
+          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-navy mb-2">
             Consultá el estado de tu trámite
           </h2>
           <p className="text-slate-600 text-sm sm:text-base max-w-xl mx-auto mb-6">
@@ -91,9 +91,9 @@ export function Footer() {
               <Image
                 src="/images/logo-header.png"
                 alt="Giordano · Lopez · García Lepez - Estudio Jurídico"
-                width={360}
-                height={72}
-                className="h-14 sm:h-16 w-auto object-contain"
+                width={400}
+                height={90}
+                className="h-20 sm:h-24 w-auto object-contain"
               />
             </Link>
             <p className="text-sm text-slate-600 leading-relaxed max-w-sm">
@@ -107,7 +107,7 @@ export function Footer() {
 
           {/* Columna 2: Datos de Oficina */}
           <div className="lg:col-span-3 space-y-3">
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-900">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-navy">
               Sede Central
             </h3>
             <ul className="space-y-2.5 text-sm text-slate-600">
@@ -145,7 +145,7 @@ export function Footer() {
 
           {/* Columna 3: Mapa interactivo / OpenStreetMap */}
           <div className="lg:col-span-3 space-y-2">
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-900 flex items-center justify-between">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-navy flex items-center justify-between">
               <span>Ubicación</span>
               <a
                 href="https://www.openstreetmap.org/?mlat=-31.4185956&mlon=-64.191057949#map=16/-31.4185956/-64.191057949"
@@ -177,7 +177,7 @@ export function Footer() {
 
           {/* Columna 4: Data Fiscal AFIP / ARCA */}
           <div className="lg:col-span-2 space-y-3">
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-900">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-navy">
               Cumplimiento
             </h3>
             {/* Tarjeta simulada de Data Fiscal ARCA/AFIP 960/D.F. */}

@@ -35,11 +35,11 @@ export function Newsletter() {
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
           <div className="space-y-3 max-w-xl">
-            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-gold flex items-center gap-1.5">
+            <span className="font-sans text-xs font-semibold uppercase tracking-[0.25em] text-gold flex items-center gap-1.5">
               <BookOpen className="w-3.5 h-3.5 text-gold" />
               Doctrina y Actualidad
             </span>
-            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-slate-900">
+            <h2 className="font-serif text-3xl sm:text-4xl font-bold text-navy">
               Novedades Jurídicas
             </h2>
             <p className="text-base text-slate-600">
@@ -76,7 +76,7 @@ export function Newsletter() {
                   </span>
                 </div>
 
-                <h3 className="font-serif text-xl font-bold text-slate-900 group-hover:text-slate-800 transition-colors leading-snug">
+                <h3 className="font-serif text-xl font-bold text-navy group-hover:text-slate-800 transition-colors leading-snug">
                   {noticia.title}
                 </h3>
 

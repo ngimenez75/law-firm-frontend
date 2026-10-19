@@ -35,7 +35,7 @@ export function Hero() {
           </div>
 
           {/* H1 Serif Editorial */}
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-slate-900 leading-[1.12]">
+          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-navy leading-[1.12]">
             Tu respaldo legal,{" "}
             <span className="italic font-serif text-gold block sm:inline">
               ágil y transparente.

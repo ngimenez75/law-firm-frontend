@@ -58,10 +58,10 @@ export function AreasPractica() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="max-w-2xl mx-auto text-center space-y-3 mb-16">
-          <span className="text-xs font-semibold uppercase tracking-[0.25em] text-gold">
+          <span className="font-sans text-xs font-semibold uppercase tracking-[0.25em] text-gold">
             Especialidades Jurídicas
           </span>
-          <h2 className="font-serif text-3xl sm:text-4xl font-bold text-slate-900">
+          <h2 className="font-serif text-3xl sm:text-4xl font-bold text-navy">
             Áreas de Práctica
           </h2>
           <p className="text-base text-slate-600">
@@ -90,7 +90,7 @@ export function AreasPractica() {
                     <span className="text-[11px] font-medium text-slate-500 block">
                       {area.badge}
                     </span>
-                    <h3 className="font-serif text-xl font-bold text-slate-900">
+                    <h3 className="font-serif text-xl font-bold text-navy">
                       {area.title}
                     </h3>
                   </div>
