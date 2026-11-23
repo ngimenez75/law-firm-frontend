@@ -24,7 +24,7 @@ export default function ClientesPage() {
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <h1 className="font-serif text-2xl font-bold text-navy-950">
+              <h1 className="text-xl sm:text-2xl font-bold text-navy-900">
                 Directorio de Clientes
               </h1>
               <span className="px-2.5 py-0.5 text-xs font-bold rounded-full bg-navy-900 text-cream-100">
@@ -77,7 +77,7 @@ export default function ClientesPage() {
                 <span className="text-xs text-slate-500 font-mono">{client.doc}</span>
               </div>
 
-              <h3 className="font-serif text-lg font-semibold text-navy-950 mb-1">
+              <h3 className="text-base font-semibold text-navy-900 mb-1">
                 {client.name}
               </h3>
               <p className="text-xs text-slate-500">Representado con poder judicial otorgado</p>

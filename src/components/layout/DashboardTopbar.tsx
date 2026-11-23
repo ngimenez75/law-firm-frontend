@@ -105,9 +105,9 @@ export function DashboardTopbar({
             </button>
 
             <div className="min-w-0">
-              <h1 className="font-serif text-lg sm:text-xl font-semibold text-navy-950 tracking-tight truncate">
+              <h2 className="text-base sm:text-lg font-semibold text-navy-900 tracking-tight truncate">
                 {title}
-              </h1>
+              </h2>
               <p className="text-[11px] sm:text-xs text-slate-500 capitalize truncate hidden sm:block">
                 {formattedDate} · <span className="text-slate-400">{subtitle}</span>
               </p>
@@ -118,44 +118,40 @@ export function DashboardTopbar({
           <div className="hidden md:flex items-center flex-1 max-w-md mx-2">
             <div className="relative w-full">
               <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
-                <Search className="w-4 h-4" />
+                <Search className="w-3.5 h-3.5" />
               </div>
               <input
                 ref={searchInputRef}
                 type="text"
                 placeholder="Buscar expediente, SAC, cliente..."
-                className="w-full pl-9 pr-14 py-2 bg-cream-100/80 border border-cream-300 rounded-lg text-xs sm:text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:bg-cream-50 focus:border-[#B5985E] focus:ring-1 focus:ring-[#B5985E] transition-all"
+                className="w-full bg-cream-100 border border-cream-200 rounded-xl pl-9 pr-12 py-1.5 text-xs text-slate-700 placeholder:text-slate-400 focus:outline-none focus:border-navy-800 transition"
               />
-              <div className="absolute inset-y-0 right-0 pr-2.5 flex items-center pointer-events-none">
-                <kbd className="px-1.5 py-0.5 text-[10px] font-mono text-slate-400 bg-cream-200/70 border border-cream-300 rounded">
-                  ⌘K
-                </kbd>
-              </div>
+              <span className="absolute right-2.5 top-1.5 text-[10px] font-mono text-slate-400 bg-white px-1.5 py-0.5 rounded border border-cream-200">
+                ⌘K
+              </span>
             </div>
           </div>
 
           {/* Lado Derecho: Acciones Rápidas */}
-          <div className="flex items-center gap-2 shrink-0">
+          <div className="flex items-center gap-2.5 shrink-0">
             {/* Botón Secundario: + Agendar Plazo */}
             <button
               type="button"
               onClick={onOpenNewDeadline}
-              className="inline-flex items-center gap-1.5 px-3 py-2 text-xs sm:text-sm font-medium text-navy-900 bg-cream-200/80 hover:bg-cream-300/80 border border-cream-300 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-[#B5985E]/40"
+              className="bg-cream-100 hover:bg-cream-200 text-navy-900 border border-cream-300 text-xs font-semibold px-3.5 py-2 rounded-xl transition"
             >
-              <CalendarPlus className="w-3.5 h-3.5 text-navy-800 shrink-0" />
-              <span className="hidden sm:inline">Agendar Plazo</span>
-              <span className="sm:hidden">Plazo</span>
+              <span className="hidden sm:inline">+ Agendar Plazo</span>
+              <span className="sm:hidden">+ Plazo</span>
             </button>
 
             {/* Botón Primario: + Nueva Causa */}
             <button
               type="button"
               onClick={onOpenNewCase}
-              className="inline-flex items-center gap-1.5 px-3.5 py-2 text-xs sm:text-sm font-medium text-cream-50 bg-navy-900 hover:bg-navy-800 rounded-lg transition-colors shadow-xs focus:outline-none focus:ring-2 focus:ring-navy-900/50"
+              className="bg-navy-900 hover:bg-navy-800 text-cream-50 text-xs font-semibold px-3.5 py-2 rounded-xl transition shadow-xs"
             >
-              <Plus className="w-3.5 h-3.5 text-[#B5985E] shrink-0" />
-              <span className="hidden sm:inline">Nueva Causa</span>
-              <span className="sm:hidden">Causa</span>
+              <span className="hidden sm:inline">+ Nueva Causa</span>
+              <span className="sm:hidden">+ Causa</span>
             </button>
           </div>
         </div>

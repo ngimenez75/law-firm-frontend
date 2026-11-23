@@ -45,7 +45,7 @@ export default function CasosPage() {
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <h1 className="font-serif text-2xl font-bold text-navy-950">
+              <h1 className="text-xl sm:text-2xl font-bold text-navy-900">
                 Expedientes y Causas
               </h1>
               <span className="px-2.5 py-0.5 text-xs font-bold rounded-full bg-navy-900 text-cream-100">

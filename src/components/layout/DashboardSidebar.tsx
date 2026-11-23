@@ -166,7 +166,7 @@ export function DashboardSidebar({
       {/* 3. Pie del Sidebar: Usuario Autenticado & Cierre de Sesión */}
       <div className="p-4 border-t border-navy-800 bg-navy-950/40">
         <div className="flex items-center gap-3 p-2 rounded-xl bg-navy-800/50 border border-navy-800 mb-3">
-          <div className="w-10 h-10 rounded-full bg-navy-800 border border-[#B5985E]/40 flex items-center justify-center text-[#B5985E] font-serif font-semibold text-sm shrink-0">
+          <div className="w-9 h-9 rounded-full bg-navy-800 border border-[#B5985E]/40 flex items-center justify-center text-[#B5985E] font-semibold text-xs shrink-0">
             {getUserInitials(user.fullName || `${user.firstName || ""} ${user.lastName || ""}`)}
           </div>
           <div className="min-w-0 flex-1">

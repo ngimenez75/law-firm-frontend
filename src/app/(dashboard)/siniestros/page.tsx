@@ -54,7 +54,7 @@ export default function SiniestrosPage() {
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <h1 className="font-serif text-2xl font-bold text-navy-950">
+              <h1 className="text-xl sm:text-2xl font-bold text-navy-900">
                 Siniestros & Acuerdos Extrajudiciales
               </h1>
               <span className="px-2.5 py-0.5 text-xs font-bold rounded-full bg-[#FAF1E2] text-[#78521A] border border-[#EBD5B3]">
@@ -82,21 +82,21 @@ export default function SiniestrosPage() {
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-500">
             Reclamos Extrajudiciales
           </p>
-          <p className="font-serif text-2xl sm:text-3xl font-bold text-navy-950 mt-1">5</p>
+          <p className="text-2xl sm:text-3xl font-bold text-navy-900 mt-1">5</p>
           <p className="text-xs text-slate-500 mt-2">Negociación prejudicial</p>
         </div>
         <div className="bg-cream-50 rounded-xl p-4 border border-cream-300 shadow-xs">
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-500">
             Acuerdos en Cierre
           </p>
-          <p className="font-serif text-2xl sm:text-3xl font-bold text-[#78521A] mt-1">2</p>
+          <p className="text-2xl sm:text-3xl font-bold text-[#78521A] mt-1">2</p>
           <p className="text-xs text-slate-500 mt-2">En redacción de convenio</p>
         </div>
         <div className="bg-cream-50 rounded-xl p-4 border border-cream-300 shadow-xs">
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-500">
             Cobros Homologados (Mes)
           </p>
-          <p className="font-serif text-2xl sm:text-3xl font-bold text-[#265438] mt-1">
+          <p className="text-2xl sm:text-3xl font-bold text-[#265438] mt-1">
             $ 17.450.000
           </p>
           <p className="text-xs text-slate-500 mt-2">Fondos liquidados a clientes</p>
@@ -105,7 +105,7 @@ export default function SiniestrosPage() {
 
       {/* Listado de Siniestros */}
       <div className="bg-cream-50 rounded-xl border border-cream-300 p-5 shadow-xs">
-        <h3 className="font-serif text-lg font-semibold text-navy-950 mb-4">
+        <h3 className="text-sm font-bold text-navy-900 mb-4">
           Bandeja de Reclamos en Trámite
         </h3>
 

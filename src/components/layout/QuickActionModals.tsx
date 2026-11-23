@@ -87,9 +87,9 @@ export function QuickActionModals({
                 <div>
                   <h3
                     id="modal-case-title"
-                    className="font-serif text-lg font-semibold text-navy-950"
+                    className="text-base font-bold text-navy-900"
                   >
-                    Dar de Alta Nueva Causa
+                    Dar de Alta Nueva Causa / Expediente
                   </h3>
                   <p className="text-xs text-slate-500">
                     Registro de expediente judicial (Modelo 3FN)
@@ -110,7 +110,7 @@ export function QuickActionModals({
             {caseSuccess ? (
               <div className="p-8 text-center space-y-3">
                 <CheckCircle2 className="w-12 h-12 text-emerald-600 mx-auto animate-bounce" />
-                <h4 className="font-serif text-lg font-medium text-navy-900">
+                <h4 className="text-base font-semibold text-navy-900">
                   Causa Registrada Exitosamente
                 </h4>
                 <p className="text-xs text-slate-600">
@@ -271,7 +271,7 @@ export function QuickActionModals({
                 <div>
                   <h3
                     id="modal-deadline-title"
-                    className="font-serif text-lg font-semibold text-navy-950"
+                    className="text-base font-bold text-navy-900"
                   >
                     Agendar Vencimiento / Audiencia
                   </h3>
@@ -294,7 +294,7 @@ export function QuickActionModals({
             {deadlineSuccess ? (
               <div className="p-8 text-center space-y-3">
                 <CheckCircle2 className="w-12 h-12 text-emerald-600 mx-auto animate-bounce" />
-                <h4 className="font-serif text-lg font-medium text-navy-900">
+                <h4 className="text-base font-semibold text-navy-900">
                   Plazo Procesal Agendado
                 </h4>
                 <p className="text-xs text-slate-600">

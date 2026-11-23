@@ -54,7 +54,7 @@ export default function EquipoPage() {
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <h1 className="font-serif text-2xl font-bold text-navy-950">
+              <h1 className="text-xl sm:text-2xl font-bold text-navy-900">
                 Equipo y Permisos
               </h1>
               <span className="px-2 py-0.5 text-xs font-semibold rounded-full bg-navy-900 text-cream-100 flex items-center gap-1">
@@ -86,12 +86,12 @@ export default function EquipoPage() {
           >
             <div className="flex items-start justify-between gap-3 mb-3">
               <div className="flex items-center gap-3">
-                <div className="w-11 h-11 rounded-full bg-navy-900 text-[#B5985E] font-serif font-bold text-base flex items-center justify-center shrink-0 border border-cream-300">
+                <div className="w-11 h-11 rounded-full bg-navy-900 text-[#B5985E] font-bold text-sm flex items-center justify-center shrink-0 border border-cream-300">
                   {member.name.split(" ")[1]?.[0] || "L"}
                   {member.name.split(" ")[2]?.[0] || ""}
                 </div>
                 <div>
-                  <h3 className="font-serif text-lg font-semibold text-navy-950">
+                  <h3 className="text-base font-semibold text-navy-900">
                     {member.name}
                   </h3>
                   <p className="text-xs text-[#B5985E] font-medium">{member.role}</p>

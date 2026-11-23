@@ -56,6 +56,18 @@ export default function RootLayout({
       data-scroll-behavior="smooth"
       className={`${inter.variable} ${cormorantGaramond.variable} scroll-smooth`}
     >
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body className="min-h-screen bg-stone-50 text-slate-900 font-sans antialiased flex flex-col selection:bg-slate-200 selection:text-slate-900">
         <AuthProvider>{children}</AuthProvider>
       </body>

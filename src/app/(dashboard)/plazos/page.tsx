@@ -42,7 +42,7 @@ export default function PlazosPage() {
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <h1 className="font-serif text-2xl font-bold text-navy-950">
+              <h1 className="text-xl sm:text-2xl font-bold text-navy-900">
                 Agenda de Plazos & Audiencias
               </h1>
               <span className="px-2.5 py-0.5 text-xs font-bold rounded-full bg-[#F9EBEB] text-[#7F2929] border border-[#EBCACA]">
@@ -146,7 +146,7 @@ export default function PlazosPage() {
                   </PastelBadge>
                 </div>
 
-                <h3 className="font-serif text-base sm:text-lg font-semibold text-slate-900 leading-snug">
+                <h3 className="text-base font-semibold text-navy-900 leading-snug">
                   {item.caratula}
                 </h3>
 
