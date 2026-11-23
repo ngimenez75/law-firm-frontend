@@ -30,7 +30,8 @@ export function Hero() {
               width={600}
               height={235}
               priority
-              className="h-auto w-full max-w-[420px] sm:max-w-[450px] lg:max-w-[600px] lg:w-[600px] object-contain"
+              style={{ width: "100%", height: "auto" }}
+              className="max-w-[420px] sm:max-w-[450px] lg:max-w-[600px] object-contain"
             />
           </div>
 

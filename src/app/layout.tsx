@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Cormorant_Garamond } from "next/font/google";
+import { AuthProvider } from "@/context/AuthContext";
 import "./globals.css";
 
 const inter = Inter({
@@ -52,10 +53,11 @@ export default function RootLayout({
   return (
     <html
       lang="es"
+      data-scroll-behavior="smooth"
       className={`${inter.variable} ${cormorantGaramond.variable} scroll-smooth`}
     >
       <body className="min-h-screen bg-stone-50 text-slate-900 font-sans antialiased flex flex-col selection:bg-slate-200 selection:text-slate-900">
-        {children}
+        <AuthProvider>{children}</AuthProvider>
       </body>
     </html>
   );

@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+:root {
+  /* Marfil / Crema cálido editorial de alta legibilidad */
+  --background: #fbf7ee;
+  /* Azul Marino Oxford del Logotipo */
+  --foreground: #0B1B3D;
+  --primary-navy: #0B1B3D;
+  /* Dorado Ocre / Bronce Arena del Logotipo */
+  --accent-gold: #B5985E;
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-navy: var(--primary-navy);
+  --color-gold: var(--accent-gold);
+  --font-serif: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+
+  /* Azul Institucional Mate */
+  --color-navy-800: #1E2D47;
+  --color-navy-900: #152033;
+  --color-navy-950: #0E1624;
+
+  /* Superficies Cálidas */
+  --color-cream-50: #FDFCFB;
+  --color-cream-100: #F7F5F0;
+  --color-cream-200: #EAE6DF;
+  --color-cream-300: #DCD6CB;
+
+  /* Semántica Pastel Desaturada (Urgente / Plazo Fatal) */
+  --color-pastel-rose-bg: #F9EBEB;
+  --color-pastel-rose-border: #EBCACA;
+  --color-pastel-rose-text: #7F2929;
+  --color-pastel-rose-dot: #C85A5A;
+
+  /* Semántica Pastel Desaturada (Advertencia / Semana) */
+  --color-pastel-amber-bg: #FAF1E2;
+  --color-pastel-amber-border: #EBD5B3;
+  --color-pastel-amber-text: #78521A;
+  --color-pastel-amber-dot: #D49B4B;
+
+  /* Semántica Pastel Desaturada (En Plazo / Homologado) */
+  --color-pastel-sage-bg: #EAF2EC;
+  --color-pastel-sage-border: #C5DEC9;
+  --color-pastel-sage-text: #265438;
+  --color-pastel-sage-dot: #53946B;
+
+  /* Semántica Pastel Desaturada (En Trámite / Activo) */
+  --color-pastel-mist-bg: #EBF0F5;
+  --color-pastel-mist-border: #C9D8E6;
+  --color-pastel-mist-text: #274868;
+  --color-pastel-mist-dot: #527CA6;
+
+  /* Semántica Pastel Desaturada (Laboral / Secundario) */
+  --color-pastel-lavender-bg: #F1EEF7;
+  --color-pastel-lavender-border: #D7CFE8;
+  --color-pastel-lavender-text: #49386B;
+  --color-pastel-lavender-dot: #7C65A8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Animaciones de entrada moderna (Feeder / Fade-in) */
+@keyframes heroFeeder {
+  0% {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes photoFeeder {
+  0% {
+    opacity: 0;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-hero-feeder {
+  animation: heroFeeder 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-photo-feeder {
+  animation: photoFeeder 1.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
